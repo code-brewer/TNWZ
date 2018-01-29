@@ -1,0 +1,9 @@
+        if(oSession.HostnameIs("question.hortor.net")&&oSession.uriContains("findquiz")){
+            oSession.utilDecodeResponse();
+            oSession.SaveResponseBody("C:\\Users\\john\\Desktop\\response_body.txt");
+          
+        }
+        if(oSession.HostnameIs("question.hortor.net")&&oSession.uriContains("choose")){
+            oSession.utilDecodeResponse();
+            oSession.SaveResponseBody("C:\\Users\\john\\Desktop\\choose.txt");
+        }
